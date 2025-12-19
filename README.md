@@ -26,32 +26,6 @@ The first time you run the application, it will automatically download the YOLOv
 
 
 
-#### Webcam Detection
-```bash
-python image_detector.py --webcam
-```
-
-#### Advanced Options
-```bash
-# Custom confidence threshold (0.0 to 1.0)
-python image_detector.py --image photo.jpg --confidence 0.5
-
-# Use different model (yolov8s.pt, yolov8m.pt, yolov8l.pt, yolov8x.pt)
-python image_detector.py --image photo.jpg --model yolov8s.pt
-
-# Don't save annotated images
-python image_detector.py --image photo.jpg --no-save
-
-# Don't display images (useful for batch processing)
-python image_detector.py --directory images/ --no-show
-```
-
-### Interactive Mode
-
-Simply run without arguments to enter interactive mode:
-```bash
-python image_detector.py
-```
 
 
 ## Model Options

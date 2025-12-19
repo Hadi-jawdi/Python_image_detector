@@ -1,5 +1,7 @@
 # Image Detection Application
 
+<img width="1095" height="660" alt="output" src="https://github.com/user-attachments/assets/4b58f2c8-e7b3-4bcf-9523-08cfe204164a" />
+
 A Python application for detecting objects in images using YOLOv8 (You Only Look Once) deep learning model.
 
 ## Features
